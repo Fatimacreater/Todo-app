@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+#container {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #2d3748;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+#input {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    outline: none;
+    background: #f7fafc;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+#addbtn {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #667eea;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#addbtn:hover {
+    transform: translateY(-2px);
+}
+
+#list {
+    list-style: none;
+    margin-top: 25px;
+}
+
+#list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    margin-bottom: 12px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+#list li:hover {
+    transform: translateX(5px);
+}
+
+#list li span {
+    flex: 1;
+    font-size: 16px;
+    color: #2d3748;
+}
+
+#list li button {
+    border: none;
+    background: #ff5e5e;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#list li button:hover {
+    opacity: 0.9;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
