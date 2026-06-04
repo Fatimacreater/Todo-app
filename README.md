@@ -37,3 +37,4 @@ It allows users to add, complete, and delete tasks with data saved in local stor
 - Edit task feature  
 - Filters (All / Active / Completed)  
 - Animations  
+<img width="919" height="539" alt="image" src="https://github.com/user-attachments/assets/c4b57732-6a24-41a8-99f3-546ce4c76bc3" />
